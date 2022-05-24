@@ -18,7 +18,7 @@ var completedTasksHolder = document.getElementById("completed-tasks");//complete
 var createNewTaskElement = function (taskString) {
 
     var listItem = document.createElement("li");
-    listItem.classList.add("item");
+    listItem.classList.add("task-list__item");
 
     //input (checkbox)
     var checkBox = document.createElement("input");//checkbx
@@ -35,7 +35,7 @@ var createNewTaskElement = function (taskString) {
     var deleteButton = document.createElement("button");//delete button
     deleteButton.classList.add("button", "delete");
     var deleteButtonImg = document.createElement("img");//delete button image
-    deleteButtonImg.classList.add("delete-img");
+    deleteButtonImg.classList.add("delete__img");
 
     label.innerText = taskString;
     label.className = 'task';
