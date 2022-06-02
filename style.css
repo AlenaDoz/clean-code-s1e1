@@ -164,11 +164,11 @@ body {
   display: none
 }
 
+.task-list .task-list__item.edit-mode .task {
+  display: none;
+}
+
 .task-list .task-list__item.edit-mode .input-text {
   display: inline-block;
   width: 224px
-}
-
-.task-list .task-list__item.edit-mode .task {
-  display: none;
 }
